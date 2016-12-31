@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'PagesController@home');
+Route::get('/about', "PagesController@about");
+
+Route::get('/submit', "JobsController@create");
+Route::post('/submit', "JobsController@store");

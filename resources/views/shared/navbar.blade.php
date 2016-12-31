@@ -14,9 +14,9 @@
         <!-- Navbar Right -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li ><a href="/contact">Submit Job</a></li>
+                <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="/">Home</a></li>
+                <li class="{{ Request::is('about') ? 'active' : '' }}"><a href="/about">About</a></li>
+                <li class="{{ Request::is('submit') ? 'active' : '' }}"><a href="/submit">Submit Job</a></li>
             </ul>
             <!--
             <ul class="nav navbar-nav navbar-right">

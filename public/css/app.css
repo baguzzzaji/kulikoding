@@ -24,3 +24,15 @@ body {
 .navbar-brand {
     font-size: 2em;
 }
+
+.about-heading {
+    margin-bottom: 40px;
+}
+
+.about-text {
+    margin-top: 40px;
+}
+
+.konten {
+    margin-bottom: 80px;
+}
