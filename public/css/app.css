@@ -36,3 +36,22 @@ body {
 .konten {
     margin-bottom: 80px;
 }
+
+.job-header {
+    font-size: 1.8em;
+    display: inline;
+}
+
+.job-title {
+    display: inline;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.category-name {
+    font-family: 'Kumar One', cursive;
+}
+
+.no-job {
+    margin-left: 20px;
+}
