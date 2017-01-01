@@ -13,8 +13,4 @@ class PagesController extends Controller
     public function about() {
         return view('about');
     }
-
-    public function submit() {
-        return view('submit');
-    }
 }
